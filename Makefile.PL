@@ -3,8 +3,9 @@ WriteMakefile(
 		NAME	=> 'Acme::Licence',
     META_MERGE => {
         license => 'other',
-        resource => {
-	    repository => 'https://github.com/DrHyde/perl-modules-Acme-Licence'
+        resources => {
+	    repository => 'https://github.com/DrHyde/perl-modules-Acme-Licence',
+	    bugtracker => 'https://github.com/DrHyde/perl-modules-Acme-Licence/issues'
         }
     },
 		VERSION => '1.0',

@@ -2,7 +2,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
 		NAME	=> 'Acme::Licence',
     META_MERGE => {
-        license => 'other',
+        license => 'open_source',
         resources => {
 	    repository => 'https://github.com/DrHyde/perl-modules-Acme-Licence',
 	    bugtracker => 'https://github.com/DrHyde/perl-modules-Acme-Licence/issues'
